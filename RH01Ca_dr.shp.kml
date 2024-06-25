@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RH01Ca_dr.shp</name>
+	<Schema name="RH01Ca_dr" id="S_RH01Ca_dr_SS">
+		<SimpleField type="long" name="ID"><displayName>&lt;b&gt;ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CVE_SUBC"><displayName>&lt;b&gt;CVE_SUBC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="TIPO"><displayName>&lt;b&gt;TIPO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONDICION"><displayName>&lt;b&gt;CONDICION&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="ID_DRENA"><displayName>&lt;b&gt;ID_DRENA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="ARBSUM"><displayName>&lt;b&gt;ARBSUM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="NUM_LIN"><displayName>&lt;b&gt;NUM_LIN&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[RH01Ca_dr/ID]</td></tr>
+  <tr><td><b>CVE_SUBC</b></td><td>$[RH01Ca_dr/CVE_SUBC]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[RH01Ca_dr/TIPO]</td></tr>
+  <tr><td><b>CONDICION</b></td><td>$[RH01Ca_dr/CONDICION]</td></tr>
+  <tr><td><b>ID_DRENA</b></td><td>$[RH01Ca_dr/ID_DRENA]</td></tr>
+  <tr><td><b>ARBSUM</b></td><td>$[RH01Ca_dr/ARBSUM]</td></tr>
+  <tr><td><b>NUM_LIN</b></td><td>$[RH01Ca_dr/NUM_LIN]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>ID</b></td><td>$[RH01Ca_dr/ID]</td></tr>
+  <tr><td><b>CVE_SUBC</b></td><td>$[RH01Ca_dr/CVE_SUBC]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[RH01Ca_dr/TIPO]</td></tr>
+  <tr><td><b>CONDICION</b></td><td>$[RH01Ca_dr/CONDICION]</td></tr>
+  <tr><td><b>ID_DRENA</b></td><td>$[RH01Ca_dr/ID_DRENA]</td></tr>
+  <tr><td><b>ARBSUM</b></td><td>$[RH01Ca_dr/ARBSUM]</td></tr>
+  <tr><td><b>NUM_LIN</b></td><td>$[RH01Ca_dr/NUM_LIN]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>RH01Ca_dr</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_dr_SS">
+					<SimpleData name="ID">6517</SimpleData>
+					<SimpleData name="CVE_SUBC">RH01Ca</SimpleData>
+					<SimpleData name="TIPO">0</SimpleData>
+					<SimpleData name="CONDICION">DRENAJE DE LA CUENCA</SimpleData>
+					<SimpleData name="ID_DRENA">1</SimpleData>
+					<SimpleData name="ARBSUM">2389561</SimpleData>
+					<SimpleData name="NUM_LIN">4153</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.6225185035,31.77621198829997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_dr_SS">
+					<SimpleData name="ID">6518</SimpleData>
+					<SimpleData name="CVE_SUBC">RH01Ca</SimpleData>
+					<SimpleData name="TIPO">0</SimpleData>
+					<SimpleData name="CONDICION">DRENAJE DE LA CUENCA</SimpleData>
+					<SimpleData name="ID_DRENA">2</SimpleData>
+					<SimpleData name="ARBSUM">43173</SimpleData>
+					<SimpleData name="NUM_LIN">77</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.6172576389,31.78991571749997,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

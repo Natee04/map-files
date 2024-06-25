@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RH01Ca_to.shp</name>
+	<Schema name="RH01Ca_to" id="S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+		<SimpleField type="double" name="JOIN_COUNT"><displayName>&lt;b&gt;JOIN_COUNT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FC"><displayName>&lt;b&gt;FC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="IDENTIFICA"><displayName>&lt;b&gt;IDENTIFICA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LATITUD"><displayName>&lt;b&gt;LATITUD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="LONGITUD"><displayName>&lt;b&gt;LONGITUD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="X_CCL"><displayName>&lt;b&gt;X_CCL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="X_UTM"><displayName>&lt;b&gt;X_UTM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Y_CCL"><displayName>&lt;b&gt;Y_CCL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Y_UTM"><displayName>&lt;b&gt;Y_UTM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CALI_REPR"><displayName>&lt;b&gt;CALI_REPR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CLASE"><displayName>&lt;b&gt;CLASE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TERMINO_GE"><displayName>&lt;b&gt;TERMINO_GE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOMBRE"><displayName>&lt;b&gt;NOMBRE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOMBRE_COM"><displayName>&lt;b&gt;NOMBRE_COM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOMBRE_REG"><displayName>&lt;b&gt;NOMBRE_REG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CARTA"><displayName>&lt;b&gt;CARTA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="GEOMETRIA_"><displayName>&lt;b&gt;GEOMETRIA_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="COMOD"><displayName>&lt;b&gt;COMOD&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CVE_EDO"><displayName>&lt;b&gt;CVE_EDO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_EDOM"><displayName>&lt;b&gt;NOM_EDOM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CVE_MUN"><displayName>&lt;b&gt;CVE_MUN&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_MUNM"><displayName>&lt;b&gt;NOM_MUNM&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>JOIN_COUNT</b></td><td>$[RH01Ca_to/JOIN_COUNT]</td></tr>
+  <tr><td><b>FC</b></td><td>$[RH01Ca_to/FC]</td></tr>
+  <tr><td><b>IDENTIFICA</b></td><td>$[RH01Ca_to/IDENTIFICA]</td></tr>
+  <tr><td><b>LATITUD</b></td><td>$[RH01Ca_to/LATITUD]</td></tr>
+  <tr><td><b>LONGITUD</b></td><td>$[RH01Ca_to/LONGITUD]</td></tr>
+  <tr><td><b>X_CCL</b></td><td>$[RH01Ca_to/X_CCL]</td></tr>
+  <tr><td><b>X_UTM</b></td><td>$[RH01Ca_to/X_UTM]</td></tr>
+  <tr><td><b>Y_CCL</b></td><td>$[RH01Ca_to/Y_CCL]</td></tr>
+  <tr><td><b>Y_UTM</b></td><td>$[RH01Ca_to/Y_UTM]</td></tr>
+  <tr><td><b>CALI_REPR</b></td><td>$[RH01Ca_to/CALI_REPR]</td></tr>
+  <tr><td><b>CLASE</b></td><td>$[RH01Ca_to/CLASE]</td></tr>
+  <tr><td><b>TERMINO_GE</b></td><td>$[RH01Ca_to/TERMINO_GE]</td></tr>
+  <tr><td><b>NOMBRE</b></td><td>$[RH01Ca_to/NOMBRE]</td></tr>
+  <tr><td><b>NOMBRE_COM</b></td><td>$[RH01Ca_to/NOMBRE_COM]</td></tr>
+  <tr><td><b>NOMBRE_REG</b></td><td>$[RH01Ca_to/NOMBRE_REG]</td></tr>
+  <tr><td><b>CARTA</b></td><td>$[RH01Ca_to/CARTA]</td></tr>
+  <tr><td><b>GEOMETRIA_</b></td><td>$[RH01Ca_to/GEOMETRIA_]</td></tr>
+  <tr><td><b>COMOD</b></td><td>$[RH01Ca_to/COMOD]</td></tr>
+  <tr><td><b>CVE_EDO</b></td><td>$[RH01Ca_to/CVE_EDO]</td></tr>
+  <tr><td><b>NOM_EDOM</b></td><td>$[RH01Ca_to/NOM_EDOM]</td></tr>
+  <tr><td><b>CVE_MUN</b></td><td>$[RH01Ca_to/CVE_MUN]</td></tr>
+  <tr><td><b>NOM_MUNM</b></td><td>$[RH01Ca_to/NOM_MUNM]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>JOIN_COUNT</b></td><td>$[RH01Ca_to/JOIN_COUNT]</td></tr>
+  <tr><td><b>FC</b></td><td>$[RH01Ca_to/FC]</td></tr>
+  <tr><td><b>IDENTIFICA</b></td><td>$[RH01Ca_to/IDENTIFICA]</td></tr>
+  <tr><td><b>LATITUD</b></td><td>$[RH01Ca_to/LATITUD]</td></tr>
+  <tr><td><b>LONGITUD</b></td><td>$[RH01Ca_to/LONGITUD]</td></tr>
+  <tr><td><b>X_CCL</b></td><td>$[RH01Ca_to/X_CCL]</td></tr>
+  <tr><td><b>X_UTM</b></td><td>$[RH01Ca_to/X_UTM]</td></tr>
+  <tr><td><b>Y_CCL</b></td><td>$[RH01Ca_to/Y_CCL]</td></tr>
+  <tr><td><b>Y_UTM</b></td><td>$[RH01Ca_to/Y_UTM]</td></tr>
+  <tr><td><b>CALI_REPR</b></td><td>$[RH01Ca_to/CALI_REPR]</td></tr>
+  <tr><td><b>CLASE</b></td><td>$[RH01Ca_to/CLASE]</td></tr>
+  <tr><td><b>TERMINO_GE</b></td><td>$[RH01Ca_to/TERMINO_GE]</td></tr>
+  <tr><td><b>NOMBRE</b></td><td>$[RH01Ca_to/NOMBRE]</td></tr>
+  <tr><td><b>NOMBRE_COM</b></td><td>$[RH01Ca_to/NOMBRE_COM]</td></tr>
+  <tr><td><b>NOMBRE_REG</b></td><td>$[RH01Ca_to/NOMBRE_REG]</td></tr>
+  <tr><td><b>CARTA</b></td><td>$[RH01Ca_to/CARTA]</td></tr>
+  <tr><td><b>GEOMETRIA_</b></td><td>$[RH01Ca_to/GEOMETRIA_]</td></tr>
+  <tr><td><b>COMOD</b></td><td>$[RH01Ca_to/COMOD]</td></tr>
+  <tr><td><b>CVE_EDO</b></td><td>$[RH01Ca_to/CVE_EDO]</td></tr>
+  <tr><td><b>NOM_EDOM</b></td><td>$[RH01Ca_to/NOM_EDOM]</td></tr>
+  <tr><td><b>CVE_MUN</b></td><td>$[RH01Ca_to/CVE_MUN]</td></tr>
+  <tr><td><b>NOM_MUNM</b></td><td>$[RH01Ca_to/NOM_MUNM]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>RH01Ca_to</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866101</SimpleData>
+					<SimpleData name="LATITUD">315245.596</SimpleData>
+					<SimpleData name="LONGITUD">1160205.701</SimpleData>
+					<SimpleData name="X_CCL">1167094.5353597903</SimpleData>
+					<SimpleData name="X_UTM">591278.359006477</SimpleData>
+					<SimpleData name="Y_CCL">2266408.883743344</SimpleData>
+					<SimpleData name="Y_UTM">3527466.7273019515</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">BARRANCA</SimpleData>
+					<SimpleData name="NOMBRE">POZO DEL VIEJO</SimpleData>
+					<SimpleData name="NOMBRE_COM">BARRANCA POZO DEL VIEJO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952286</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0349169384615,31.87933221538461,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866108</SimpleData>
+					<SimpleData name="LATITUD">314908.573</SimpleData>
+					<SimpleData name="LONGITUD">1161137.250</SimpleData>
+					<SimpleData name="X_CCL">1151401.6862502603</SimpleData>
+					<SimpleData name="X_UTM">576311.5046176004</SimpleData>
+					<SimpleData name="Y_CCL">2261205.8360712077</SimpleData>
+					<SimpleData name="Y_UTM">3520661.9413417927</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">CANOAS, LAS</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA LAS CANOAS</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952293</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.1936805538461,31.81904806153845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866120</SimpleData>
+					<SimpleData name="LATITUD">315109.781</SimpleData>
+					<SimpleData name="LONGITUD">1160213.435</SimpleData>
+					<SimpleData name="X_CCL">1166601.2394832887</SimpleData>
+					<SimpleData name="X_UTM">591101.3377177459</SimpleData>
+					<SimpleData name="Y_CCL">2263476.158943678</SimpleData>
+					<SimpleData name="Y_UTM">3524514.695355021</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">CA�ADA ENCINOSA</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA ENCINOSA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952305</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.037065276923,31.85271693846151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866123</SimpleData>
+					<SimpleData name="LATITUD">314828.455</SimpleData>
+					<SimpleData name="LONGITUD">1160124.265</SimpleData>
+					<SimpleData name="X_CCL">1167406.902143205</SimpleData>
+					<SimpleData name="X_UTM">592438.2397493668</SimpleData>
+					<SimpleData name="Y_CCL">2258378.165168229</SimpleData>
+					<SimpleData name="Y_UTM">3519558.8919606027</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">DUQUES</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA DUQUES</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952308</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0234069384615,31.80790416923075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865991</SimpleData>
+					<SimpleData name="LATITUD">314634.088</SimpleData>
+					<SimpleData name="LONGITUD">1163240.839</SimpleData>
+					<SimpleData name="X_CCL">1117680.8878690654</SimpleData>
+					<SimpleData name="X_UTM">543112.0147243777</SimpleData>
+					<SimpleData name="Y_CCL">2259788.8760321345</SimpleData>
+					<SimpleData name="Y_UTM">3515712.65581839</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">SAN EMILIANO</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA SAN EMILIANO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952176</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.5446774923077,31.77613555384612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865992</SimpleData>
+					<SimpleData name="LATITUD">314644.853</SimpleData>
+					<SimpleData name="LONGITUD">1163316.555</SimpleData>
+					<SimpleData name="X_CCL">1116774.9886530451</SimpleData>
+					<SimpleData name="X_UTM">542171.2719916528</SimpleData>
+					<SimpleData name="Y_CCL">2260216.07092579</SimpleData>
+					<SimpleData name="Y_UTM">3516040.209907279</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">BARRANCA</SimpleData>
+					<SimpleData name="NOMBRE">HUAJUCO, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">BARRANCA EL HUAJUCO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952177</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.5545986153846,31.77912583076924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865993</SimpleData>
+					<SimpleData name="LATITUD">314541.556</SimpleData>
+					<SimpleData name="LONGITUD">1163032.411</SimpleData>
+					<SimpleData name="X_CCL">1120895.5458222923</SimpleData>
+					<SimpleData name="X_UTM">546497.1661176882</SimpleData>
+					<SimpleData name="Y_CCL">2257827.565976057</SimpleData>
+					<SimpleData name="Y_UTM">3514109.940942516</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">CHIVERO, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA EL CHIVERO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952178</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>-116.5090030615384,31.76154333846154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865994</SimpleData>
+					<SimpleData name="LATITUD">314609.796</SimpleData>
+					<SimpleData name="LONGITUD">1162913.802</SimpleData>
+					<SimpleData name="X_CCL">1123052.1645834432</SimpleData>
+					<SimpleData name="X_UTM">548560.9370823646</SimpleData>
+					<SimpleData name="Y_CCL">2258487.499109476</SimpleData>
+					<SimpleData name="Y_UTM">3514988.9576754766</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">TOMATE, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA EL TOMATE</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952179</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4871672153846,31.76938778461539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865996</SimpleData>
+					<SimpleData name="LATITUD">314729.301</SimpleData>
+					<SimpleData name="LONGITUD">1162759.533</SimpleData>
+					<SimpleData name="X_CCL">1125254.1757005893</SimpleData>
+					<SimpleData name="X_UTM">550502.471220587</SimpleData>
+					<SimpleData name="Y_CCL">2260738.3335922193</SimpleData>
+					<SimpleData name="Y_UTM">3517446.2370574297</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">SAN CARLOS</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA SAN CARLOS</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952181</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4665369384615,31.79147250769229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866166</SimpleData>
+					<SimpleData name="LATITUD">314720.605</SimpleData>
+					<SimpleData name="LONGITUD">1155939.667</SimpleData>
+					<SimpleData name="X_CCL">1169954.4746004278</SimpleData>
+					<SimpleData name="X_UTM">595207.8542905435</SimpleData>
+					<SimpleData name="Y_CCL">2256017.9005781915</SimpleData>
+					<SimpleData name="Y_UTM">3517494.818987707</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">DUQUES</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA DUQUES</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B14</SimpleData>
+					<SimpleData name="GEOMETRIA_">952351</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-115.9943519384615,31.78905693846153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866044</SimpleData>
+					<SimpleData name="LATITUD">315106.392</SimpleData>
+					<SimpleData name="LONGITUD">1162605.936</SimpleData>
+					<SimpleData name="X_CCL">1128918.0105356937</SimpleData>
+					<SimpleData name="X_UTM">553455.014462098</SimpleData>
+					<SimpleData name="Y_CCL">2267123.5280386</SimpleData>
+					<SimpleData name="Y_UTM">3524145.4192432095</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">MOLINO, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA EL MOLINO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952229</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4349822153846,31.85177555384613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866052</SimpleData>
+					<SimpleData name="LATITUD">314817.726</SimpleData>
+					<SimpleData name="LONGITUD">1163248.047</SimpleData>
+					<SimpleData name="X_CCL">1117816.1178689238</SimpleData>
+					<SimpleData name="X_UTM">542909.1321947457</SimpleData>
+					<SimpleData name="Y_CCL">2263000.1444295933</SimpleData>
+					<SimpleData name="Y_UTM">3518902.773768308</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">CAMPILLO</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA CAMPILLO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952237</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.5466797230769,31.80492389230766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866060</SimpleData>
+					<SimpleData name="LATITUD">314835.465</SimpleData>
+					<SimpleData name="LONGITUD">1162411.949</SimpleData>
+					<SimpleData name="X_CCL">1131446.834163326</SimpleData>
+					<SimpleData name="X_UTM">556476.152860701</SimpleData>
+					<SimpleData name="Y_CCL">2262171.7410165714</SimpleData>
+					<SimpleData name="Y_UTM">3519514.4794827066</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">GRULLA, LA</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA LA GRULLA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952245</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4033191692308,31.80985138461536,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866239</SimpleData>
+					<SimpleData name="LATITUD">314442.542</SimpleData>
+					<SimpleData name="LONGITUD">1162957.736</SimpleData>
+					<SimpleData name="X_CCL">1121623.58705891</SimpleData>
+					<SimpleData name="X_UTM">547417.672898799</SimpleData>
+					<SimpleData name="Y_CCL">2255917.51678995</SimpleData>
+					<SimpleData name="Y_UTM">3512297.118906165</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS OROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CA�ADA</SimpleData>
+					<SimpleData name="NOMBRE">ORFELINATO, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">CA�ADA EL ORFELINATO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B22</SimpleData>
+					<SimpleData name="GEOMETRIA_">952424</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4993711076923,31.74515055384617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866097</SimpleData>
+					<SimpleData name="LATITUD">315505.665</SimpleData>
+					<SimpleData name="LONGITUD">1160236.944</SimpleData>
+					<SimpleData name="X_CCL">1166697.015009597</SimpleData>
+					<SimpleData name="X_UTM">590419.4485681606</SimpleData>
+					<SimpleData name="Y_CCL">2270806.3917694194</SimpleData>
+					<SimpleData name="Y_UTM">3531772.3208059734</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SAUCO, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO EL SAUCO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952282</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0435955538461,31.91824027692306,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866098</SimpleData>
+					<SimpleData name="LATITUD">315416.473</SimpleData>
+					<SimpleData name="LONGITUD">1160142.894</SimpleData>
+					<SimpleData name="X_CCL">1167969.1117020792</SimpleData>
+					<SimpleData name="X_UTM">591852.5134001602</SimpleData>
+					<SimpleData name="Y_CCL">2269150.757902476</SimpleData>
+					<SimpleData name="Y_UTM">3530270.2715397617</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">BASHISHA, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO EL BASHISHA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952283</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0285816615384,31.90457583076924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866102</SimpleData>
+					<SimpleData name="LATITUD">315241.600</SimpleData>
+					<SimpleData name="LONGITUD">1160016.752</SimpleData>
+					<SimpleData name="X_CCL">1169947.4750579621</SimpleData>
+					<SimpleData name="X_UTM">594141.9708071266</SimpleData>
+					<SimpleData name="Y_CCL">2266004.773430269</SimpleData>
+					<SimpleData name="Y_UTM">3527369.552114127</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">CI�NAGA</SimpleData>
+					<SimpleData name="NOMBRE">POCITAS, LAS</SimpleData>
+					<SimpleData name="NOMBRE_COM">CI�NAGA LAS POCITAS</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952287</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0046533384615,31.87822221538458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866105</SimpleData>
+					<SimpleData name="LATITUD">315052.090</SimpleData>
+					<SimpleData name="LONGITUD">1161138.462</SimpleData>
+					<SimpleData name="X_CCL">1151686.4888051872</SimpleData>
+					<SimpleData name="X_UTM">576255.9910705535</SimpleData>
+					<SimpleData name="Y_CCL">2264398.4102814826</SimpleData>
+					<SimpleData name="Y_UTM">3523849.0063649775</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952290</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.1940172153846,31.84780278461539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866107</SimpleData>
+					<SimpleData name="LATITUD">314922.996</SimpleData>
+					<SimpleData name="LONGITUD">1161503.236</SimpleData>
+					<SimpleData name="X_CCL">1146027.3097646006</SimpleData>
+					<SimpleData name="X_UTM">570893.0545479628</SimpleData>
+					<SimpleData name="Y_CCL">2262189.297037267</SimpleData>
+					<SimpleData name="Y_UTM">3521067.2655369164</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952292</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.2508988923077,31.82305444615383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866109</SimpleData>
+					<SimpleData name="LATITUD">314822.533</SimpleData>
+					<SimpleData name="LONGITUD">1161756.792</SimpleData>
+					<SimpleData name="X_CCL">1141275.729164793</SimpleData>
+					<SimpleData name="X_UTM">566342.4814475152</SimpleData>
+					<SimpleData name="Y_CCL">2260782.5367151224</SimpleData>
+					<SimpleData name="Y_UTM">3519175.1837491416</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952294</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.2991088923077,31.80625916923077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866114</SimpleData>
+					<SimpleData name="LATITUD">314626.108</SimpleData>
+					<SimpleData name="LONGITUD">1161125.259</SimpleData>
+					<SimpleData name="X_CCL">1151220.2840568663</SimpleData>
+					<SimpleData name="X_UTM">576663.9978371591</SimpleData>
+					<SimpleData name="Y_CCL">2256169.393410468</SimpleData>
+					<SimpleData name="Y_UTM">3515661.994000524</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952299</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.1903497230769,31.77391889230768,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866119</SimpleData>
+					<SimpleData name="LATITUD">315132.373</SimpleData>
+					<SimpleData name="LONGITUD">1160328.596</SimpleData>
+					<SimpleData name="X_CCL">1164692.8154327814</SimpleData>
+					<SimpleData name="X_UTM">589119.9884551128</SimpleData>
+					<SimpleData name="Y_CCL">2264366.5906252596</SimpleData>
+					<SimpleData name="Y_UTM">3525192.9895810694</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B13</SimpleData>
+					<SimpleData name="GEOMETRIA_">952304</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.0579433384615,31.85899250769231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865990</SimpleData>
+					<SimpleData name="LATITUD">314554.725</SimpleData>
+					<SimpleData name="LONGITUD">1163229.919</SimpleData>
+					<SimpleData name="X_CCL">1117844.8451186945</SimpleData>
+					<SimpleData name="X_UTM">543404.3312508089</SimpleData>
+					<SimpleData name="Y_CCL">2258547.3555042525</SimpleData>
+					<SimpleData name="Y_UTM">3514501.917986958</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">MANEADERO</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO MANEADERO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952175</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.5416441692307,31.76520138461537,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865995</SimpleData>
+					<SimpleData name="LATITUD">314756.466</SimpleData>
+					<SimpleData name="LONGITUD">1162907.582</SimpleData>
+					<SimpleData name="X_CCL">1123548.7869578805</SimpleData>
+					<SimpleData name="X_UTM">548709.0079899313</SimpleData>
+					<SimpleData name="Y_CCL">2261756.348654786</SimpleData>
+					<SimpleData name="Y_UTM">3518274.001095028</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">R�O</SimpleData>
+					<SimpleData name="NOMBRE">MANEADERO</SimpleData>
+					<SimpleData name="NOMBRE_COM">R�O MANEADERO</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952180</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.4854394461538,31.79901833846152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866148</SimpleData>
+					<SimpleData name="LATITUD">315527.678</SimpleData>
+					<SimpleData name="LONGITUD">1155850.023</SimpleData>
+					<SimpleData name="X_CCL">1172728.7843793267</SimpleData>
+					<SimpleData name="X_UTM">596372.6040245586</SimpleData>
+					<SimpleData name="Y_CCL">2270900.206105454</SimpleData>
+					<SimpleData name="Y_UTM">3532504.4649948105</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">CRUDOS, LOS</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO LOS CRUDOS</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B14</SimpleData>
+					<SimpleData name="GEOMETRIA_">952333</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-115.9805619384615,31.92435499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866149</SimpleData>
+					<SimpleData name="LATITUD">315345.628</SimpleData>
+					<SimpleData name="LONGITUD">1155749.726</SimpleData>
+					<SimpleData name="X_CCL">1174006.6502911993</SimpleData>
+					<SimpleData name="X_UTM">597986.1034268013</SimpleData>
+					<SimpleData name="Y_CCL">2267599.9159115124</SimpleData>
+					<SimpleData name="Y_UTM">3529377.2283593034</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">TULE, EL</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO EL TULE</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B14</SimpleData>
+					<SimpleData name="GEOMETRIA_">952334</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-115.9638127846154,31.8960077846154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866150</SimpleData>
+					<SimpleData name="LATITUD">315314.478</SimpleData>
+					<SimpleData name="LONGITUD">1155942.183</SimpleData>
+					<SimpleData name="X_CCL">1170955.7394153026</SimpleData>
+					<SimpleData name="X_UTM">595040.8578389252</SimpleData>
+					<SimpleData name="Y_CCL">2266929.016933592</SimpleData>
+					<SimpleData name="Y_UTM">3528390.2769591347</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">ARROYO</SimpleData>
+					<SimpleData name="NOMBRE">SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_COM">ARROYO SAN SALVADOR</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B14</SimpleData>
+					<SimpleData name="GEOMETRIA_">952335</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-115.9950508307692,31.88735499999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">866061</SimpleData>
+					<SimpleData name="LATITUD">315011.023</SimpleData>
+					<SimpleData name="LONGITUD">1162135.965</SimpleData>
+					<SimpleData name="X_CCL">1135845.74213152</SimpleData>
+					<SimpleData name="X_UTM">560559.9985474512</SimpleData>
+					<SimpleData name="Y_CCL">2264702.66710082</SimpleData>
+					<SimpleData name="Y_UTM">3522480.0005230056</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">ELEMENTOS HIDROGR�FICOS</SimpleData>
+					<SimpleData name="TERMINO_GE">R�O</SimpleData>
+					<SimpleData name="NOMBRE">SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_COM">R�O SANTA CLARA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952246</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.359990276923,31.83639527692308,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_RH01Ca_to_DSSSSSSSSSSSSSSSDSSSS">
+					<SimpleData name="JOIN_COUNT">1</SimpleData>
+					<SimpleData name="FC">771</SimpleData>
+					<SimpleData name="IDENTIFICA">865986</SimpleData>
+					<SimpleData name="LATITUD">314534.763</SimpleData>
+					<SimpleData name="LONGITUD">1163720.173</SimpleData>
+					<SimpleData name="X_CCL">1110145.0942512464</SimpleData>
+					<SimpleData name="X_UTM">535771.4625922552</SimpleData>
+					<SimpleData name="Y_CCL">2258711.774591889</SimpleData>
+					<SimpleData name="Y_UTM">3513857.9868438356</SimpleData>
+					<SimpleData name="CALI_REPR">DE REFERENCIA</SimpleData>
+					<SimpleData name="CLASE">FORMAS LITORALES</SimpleData>
+					<SimpleData name="TERMINO_GE">ESTERO</SimpleData>
+					<SimpleData name="NOMBRE">ESTERO PUNTA BANDA</SimpleData>
+					<SimpleData name="NOMBRE_COM">ESTERO PUNTA BANDA</SimpleData>
+					<SimpleData name="NOMBRE_REG">NINGUNO</SimpleData>
+					<SimpleData name="CARTA">H11B12</SimpleData>
+					<SimpleData name="GEOMETRIA_">952171</SimpleData>
+					<SimpleData name="COMOD">1</SimpleData>
+					<SimpleData name="CVE_EDO">02</SimpleData>
+					<SimpleData name="NOM_EDOM">BAJA CALIFORNIA</SimpleData>
+					<SimpleData name="CVE_MUN">02001</SimpleData>
+					<SimpleData name="NOM_MUNM">ENSENADA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.622270276923,31.75965638461537,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
